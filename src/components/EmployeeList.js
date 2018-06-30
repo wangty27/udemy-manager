@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ListView } from 'react-native';
 import { employeeFetch } from '../actions';
-import ListItem from './employeeListItem';
+import ListItem from './EmployeeListItem';
 
 class EmployeeList extends Component {
   componentWillMount() {
